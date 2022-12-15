@@ -1,0 +1,15 @@
+/* <div class="wrapper">
+  <p class="demo-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut odio temporibus voluptas error distinctio hic quae corrupti vero doloribus optio! Inventore ex quaerat modi blanditiis soluta maiores illum, ab velit.</p>
+</div> */
+.demo-1{
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.demo-2{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* source url: https://stackoverflow.com/questions/26973570/setting-a-max-character-length-in-css */
