@@ -1,15 +1,29 @@
 /* <div class="wrapper">
   <p class="demo-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut odio temporibus voluptas error distinctio hic quae corrupti vero doloribus optio! Inventore ex quaerat modi blanditiis soluta maiores illum, ab velit.</p>
+</div>
+
+<div class="wrapper">
+  <p class="demo-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut odio temporibus voluptas error distinctio hic quae corrupti vero doloribus optio! Inventore ex quaerat modi blanditiis soluta maiores illum, ab velit.</p>
 </div> */
-.demo-1{
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
+.wrapper {
+  padding: 20px;
+  background: #eaeaea;
+  max-width: 400px;
+  margin: 50px auto;
 }
 
-.demo-2{
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+.demo-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.demo-2 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 150px;
 }
 
 /* source url: https://stackoverflow.com/questions/26973570/setting-a-max-character-length-in-css */
